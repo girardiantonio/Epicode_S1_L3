@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    text-align: center;
+    margin: 10px 0 10px 0;
+
+}
+
+.nav {
+    text-align: center;
+    color: rgb(3, 84, 81);
+    background-color: rgba(243, 219, 4, 0.148);
+    height: 70px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.main img {
+    border-radius: 20px;
+}
+
+.title {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.author {
+    color: grey;
+    font-size: 30px;
+    text-align: center;
+}
+
+.featured {
+    display: flex;
+    font-size: 20px;
+    margin-bottom: 90px;
+}
+
+.featured hr {
+    margin: 0;
+}
+
+.featured2 {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.featured2 p {
+    margin: 0;
+    color: red;
+}
+
+.featured2 a {
+    color: rgb(4, 109, 63);
+}
+
+.ingredients h3 {
+    font-size: 40px;
+    margin: 0 0 20px 0;
+}
+
+.method h3 {
+    font-size: 40px;
+    margin: 30px 0 20px 0;
+}
+
+.method h4 {
+    margin-top: 40px;
+}
+
+.list h4 {
+    font-size: 30px;
+}
+
+.list li {
+    font-size: 25px;
+    margin: 5px 0 25px 0;
+}
+
