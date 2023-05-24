@@ -1,12 +1,13 @@
 body {
     margin: 0;
     padding: 0;
+    font-size: 20px;
+    text-align: justify;
 }
 
 .logo {
     text-align: center;
-    margin: 10px 0 10px 0;
-
+    margin: 20px 0 20px 0;
 }
 
 .nav {
@@ -23,8 +24,16 @@ body {
     margin-right: 200px;
 }
 
+.main h1 {
+    font-size: 2.7em;
+}
+
 .main img {
     border-radius: 20px;
+}
+
+.author {
+    font-size: 1.4em;
 }
 
 .title {
@@ -34,13 +43,11 @@ body {
 
 .author {
     color: grey;
-    font-size: 30px;
     text-align: center;
 }
 
 .featured {
     display: flex;
-    font-size: 20px;
     margin-bottom: 90px;
 }
 
@@ -64,25 +71,36 @@ body {
 }
 
 .ingredients h3 {
-    font-size: 40px;
     margin: 0 0 20px 0;
+    font-size: 1.5em;
+}
+
+.ingredients h4 {
+    font-size: 1.1em;
 }
 
 .method h3 {
-    font-size: 40px;
     margin: 30px 0 20px 0;
+    font-size: 1.5em;
 }
 
 .method h4 {
     margin-top: 40px;
+    margin-left: 25px;
 }
 
-.list h4 {
-    font-size: 30px;
+.method strong {
+    font-size: 1.1em;
+}
+
+.method p {
+    margin-left: 40px;
 }
 
 .list li {
-    font-size: 25px;
     margin: 5px 0 25px 0;
 }
 
+.more {
+    font-size: 1.1em;
+}
